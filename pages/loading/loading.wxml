@@ -1,0 +1,14 @@
+<view class="loading">
+  <view class="container"> 
+    <image class="logo" src="/static/images/logo.png" mode="widthFix"></image>
+    <view class="jump-text">
+      <text class="logo-text">加</text>  
+      <text class="logo-text">载</text>  
+      <text class="logo-text">中</text>  
+      <text class="logo-text">.</text>  
+      <text class="logo-text">.</text>  
+      <text class="logo-text">.</text>  
+    </view>
+  </view>  
+</view>
+ 

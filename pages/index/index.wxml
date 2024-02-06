@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<!-- <scroll-view class="scrollarea" scroll-y type="list">
+  <view class="container"> 
+    <view class="nav" style="height:{{statusBarHeight+44}}px"> 
+      <view class="search" style="margin-top: {{navMenuTop}}px; line-height: {{navMenuHeight}}px;">
+        啊很
+      </view> 
+    </view> 
+  </view>
+</scroll-view> -->
+<!-- 自定义顶部栏 -->
+
+<!-- 占位，高度与顶部栏一样 -->
+<view class="banner">
+  <image  class="banner-img" src="/static/images/indexBanner.png"></image>
+  <view class="nav-bar" style="height:{{navBarHeight}}px;line-height: {{navBarHeight}}px;">
+    <input class="search" placeholder-class="placeholder-search" placeholder="输入关键词" style="height:{{menuHeight}}px;  line-height:{{menuHeight}}px; left:{{menuRight}}px; top:{{menuTop}}px;"></input>
+  </view>
+</view>

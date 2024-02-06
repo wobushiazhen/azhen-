@@ -1,0 +1,32 @@
+
+.nav-bar{ 
+	position: relative;
+	width: 100%;
+} 
+ 
+.search{ 
+	width: 350rpx;    
+	background: rgb(255, 255, 255,.6);
+	padding-left: 20rpx;
+	border-radius: 10rpx;
+	border: 1rpx solid rgb(240, 150, 150); 
+	position: absolute;   
+	color: rgb(146, 66, 66);
+} 
+ 
+.placeholder-search{
+	color: rgb(160, 73, 73);
+}
+
+.banner-img{ 
+	position: absolute; 
+	top: 0; 
+	left: 0;
+	width: 100%;   
+	height: 318rpx;
+} 
+
+.banner{
+	width: 100%;   
+	position: relative;
+}
