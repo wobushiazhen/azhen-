@@ -1,0 +1,71 @@
+/* pages/loading/loading.wxss */
+page {
+  overflow: hidden;
+}
+
+.loading {
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+.container .logo {
+  width: 132rpx;
+  height: 132rpx;
+}
+
+.container .jump-text {
+  font-size: 26rpx;
+  margin-top: 30rpx;
+  display: flex;   
+
+}
+
+
+@keyframes jump {
+  0%,
+  100% {  
+    transform: translateY(-5rpx);
+  }
+
+  50% { 
+    transform: translateY(0rpx);
+  } 
+}
+
+.jump-text .logo-text {
+  display: block;   
+  padding: 0 3rpx;
+}
+ 
+.jump-text .logo-text:nth-child(1) {
+  animation: jump 2s infinite ease;   
+} 
+
+.jump-text .logo-text:nth-child(2) {
+  animation: jump 3s infinite ease;    
+} 
+
+.jump-text .logo-text:nth-child(3) {
+  animation: jump 2.5s infinite ease;    
+}  
+
+.jump-text .logo-text:nth-child(4) {
+  animation: jump 2.2s infinite ease;    
+} 
+
+.jump-text .logo-text:nth-child(5) {
+  animation: jump 2.7s infinite ease;    
+}  
+.jump-text .logo-text:nth-child(6) {
+  animation: jump 2.8s infinite ease;    
+}  
